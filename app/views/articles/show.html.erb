@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+    <h2><%= @article.title %> <%= link_to(raw("<i class='far fa-edit'></i>"), edit_article_path) %> <%= link_to(raw('<i class="far fa-trash-alt"></i>'), article_path(@article), method: :delete, data: { confirm: "Delete \"#{@article.title}\"?" }) %></h2>
+    <hr>
+    <p><%= @article.content %></p>
+  </div>
+  </div>
+  <br>
+<%= link_to(raw("<i class='fas fa-undo-alt'></i> Back to the articles list"), articles_path) %>
+</div>
+</div>

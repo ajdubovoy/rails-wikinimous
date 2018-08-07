@@ -1,0 +1,26 @@
+// Place all the styles related to the Article controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background-color: #f3f3f3;
+}
+
+.container{
+  max-width: 70vw;
+}
+
+h2{
+  font-family: "Roboto Slab";
+}
+
+h2 a{
+  color: #337ab7;
+  &:hover{
+    color: #24527b;
+    text-decoration: underline;
+  }
+}
+
+p{
+  font-family: "Roboto";
+}
